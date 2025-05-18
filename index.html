@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galaxy Autoservice</title>
+  <meta name="description" content="Galaxy Autoservice is a trusted car workshop in Berlin, offering fast, reliable, and professional vehicle repairs and maintenance.">
+  <link rel="icon" href="favicon-black.svg.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="https://use.typekit.net/ejj0sqn.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-container">
+          <img src="logo-top.svg.svg" alt="Galaxy Autoservice Logo" class="logo">
+          <nav class="nav-links">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Get in Touch</a>
+          </nav>
+        </div>
+      </header>
+      
+
+
+
+      <section class="hero">
+        <div class="section-container hero-content">
+          <h1>Galaxy <br /> Autoservice</h1>
+          <a href="#contact" class="btn-primary">Get in Touch</a>
+        </div>
+      </section>
+      
+      
+  
+  
+
+  <section class="about" id="about">
+    <div class="about-container">
+      <h2>About Us</h2>
+      <div class="about-columns">
+        <p>
+          Galaxy Auto Service is an independent car workshop based in Berlin,
+          founded by Alimar Aljabi – a certified automotive mechatronics technician.
+        </p>
+        <p>
+            Known for its honest and efficient approach, Galaxy Auto Service delivers high-Standard care — treating every vehicle with the same attention to detail we’d expect for our own.
+        </p>
+      </div>
+    </div>
+  </section>
+  <div class="section-divider"></div>
+
+
+
+  <section class="services" id="services">
+    <input type="checkbox" id="toggle-services" class="toggle-checkbox" />
+    <label for="toggle-services" class="services-toggle">
+      <span>Our Services</span>
+      <img src="arrow-down.svg" class="arrow-icon" alt="arrow" />
+    </label>
+    <div class="services-content">
+        <div class="service-group">
+          <h3>Diagnostics & Repairs</h3>
+          <ul>
+            <li>Vehicle Diagnostics and Error Analysis</li>
+            <li>Engine Repair and Servicing</li>
+            <li>Mechanical Repairs (Engine, Exhaust, Suspension)</li>
+            <li>Electrical and Electronics Repair</li>
+            <li>Brake Inspection and Replacement</li>
+          </ul>
+        </div>
+    
+        <div class="service-group">
+          <h3>Maintenance Services</h3>
+          <ul>
+            <li>Routine Maintenance and Seasonal Inspections</li>
+            <li>Oil Change Services</li>
+            <li>Battery Testing and Replacement</li>
+            <li>Tire and Wheel Services (Mounting, Balancing, Repair)</li>
+            <li>Air Conditioning and Heating System Service</li>
+          </ul>
+        </div>
+    
+        <div class="service-group">
+          <h3>Technology & Upgrades</h3>
+          <ul>
+            <li>Sound System Installation and Upgrades</li>
+            <li>Rearview Camera and Parking Sensor Installation</li>
+            <li>Sensor Calibration and Error Clearing</li>
+          </ul>
+        </div>
+    
+        <div class="service-group">
+          <h3>Quick Services</h3>
+          <ul>
+            <li>Light Bulb Replacement</li>
+            <li>Wiper Blade Replacement</li>
+            <li>Fluid Top-ups (Oil, Brake Fluid, Coolant)</li>
+            <li>Quick Walk-in Repairs</li>
+          </ul>
+        </div>
+    
+        <div class="service-group">
+          <h3>Additional Services</h3>
+          <ul>
+            <li>Pre-Purchase Vehicle Inspection</li>
+            <li>General Car Checkups Before Long Trips</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+
+
+
+
+    <section class="gallery" id="gallery">
+        <div class="gallery-container">
+      
+          <!-- Gallery Title on Top Left -->
+          <h2 class="gallery-title">Gallery</h2>
+      
+          <!-- Radio buttons to control which photo is shown -->
+          <!-- Only one can be selected at a time (same 'name') -->
+          <input type="radio" name="slider" id="img1" checked class="gallery-toggle" />
+          <input type="radio" name="slider" id="img2" class="gallery-toggle" />
+          <input type="radio" name="slider" id="img3" class="gallery-toggle" />
+          <input type="radio" name="slider" id="img4" class="gallery-toggle" />
+      
+          <!-- IMAGE SLIDE 1 -->
+          <div class="slide" id="slide1">
+            <!-- Left arrow (goes to last image) -->
+            <label for="img4" class="arrow arrow-left">
+              <img src="arrow left.svg" alt="Previous" class="arrow-icon">
+            </label>
+      
+            <!-- Main image -->
+            <img src="purple car.jpg" alt="Purple Car" class="gallery-image" />
+      
+            <!-- Right arrow (goes to next image) -->
+            <label for="img2" class="arrow arrow-right">
+              <img src="arrow right.svg" alt="Next" class="arrow-icon">
+            </label>
+          </div>
+      
+          <!-- IMAGE SLIDE 2 -->
+          <div class="slide" id="slide2">
+            <label for="img1" class="arrow arrow-left">
+              <img src="arrow left.svg" alt="Previous" class="arrow-icon">
+            </label>
+            <img src="inside blue.jpg" alt="Inside Blue" class="gallery-image" />
+            <label for="img3" class="arrow arrow-right">
+              <img src="arrow right.svg" alt="Next" class="arrow-icon">
+            </label>
+          </div>
+      
+          <!-- IMAGE SLIDE 3 -->
+          <div class="slide" id="slide3">
+            <label for="img2" class="arrow arrow-left">
+              <img src="arrow left.svg" alt="Previous" class="arrow-icon">
+            </label>
+            <img src="red car.jpg" alt="Inside Red Car" class="gallery-image" />
+            <label for="img4" class="arrow arrow-right">
+              <img src="arrow right.svg" alt="Next" class="arrow-icon">
+            </label>
+          </div>
+      
+          <!-- IMAGE SLIDE 4 -->
+          <div class="slide" id="slide4">
+            <label for="img3" class="arrow arrow-left">
+              <img src="arrow left.svg" alt="Previous" class="arrow-icon">
+            </label>
+            <img src="three cars.jpg"Three Cars" class="gallery-image" />
+            <label for="img1" class="arrow arrow-right">
+              <img src="arrow right.svg" alt="Next" class="arrow-icon">
+            </label>
+          </div>
+      
+        </div>
+      </section>
+      <div class="section-divider"></div>
+      
+
+
+      <section class="reviews" id="reviews">
+      <div class="reviews-container">
+
+        <h2 class="reviews-title">Customer Reviews</h2>
+      
+        <!-- Review toggle buttons -->
+        <input type="radio" name="review" id="rev1" checked class="review-toggle" />
+        <input type="radio" name="review" id="rev2" class="review-toggle" />
+        <input type="radio" name="review" id="rev3" class="review-toggle" />
+      
+        <!-- Review 1 -->
+        <div class="review-slide" id="review1">
+          <div class="review-wrapper">
+            <div class="arrow arrow-left fake-arrow"></div>
+            <div class="review-box">
+              <div class="stars">★★★★★</div>
+              <p class="review-text">
+                Absolute recommendation! The entire team are competent, flexible and friendly. They work cleanly, carefully and give honest advice — you can tell that they do their job with passion. It couldn't be better!
+              </p>
+              <p class="review-name">Carola Müller</p>
+            </div>
+            <label for="rev2" class="arrow arrow-right">
+              <img src="arrow right.svg" alt="Next" class="arrow-icon">
+            </label>
+          </div>
+        </div>
+      
+        <!-- Review 2 -->
+        <div class="review-slide" id="review2">
+          <div class="review-wrapper">
+            <div class="arrow arrow-left fake-arrow"></div>
+            <div class="review-box">
+              <div class="stars">★★★★★</div>
+              <p class="review-text">
+                Super fast and friendly service. I came in without an appointment, and they still managed to fix my car the same day!
+              </p>
+              <p class="review-name">Denis Ural</p>
+            </div>
+            <label for="rev3" class="arrow arrow-right">
+              <img src="arrow right.svg" alt="Next" class="arrow-icon">
+            </label>
+          </div>
+        </div>
+      
+        <!-- Review 3 -->
+        <div class="review-slide" id="review3">
+          <div class="review-wrapper">
+            <div class="arrow arrow-left fake-arrow"></div>
+            <div class="review-box">
+              <div class="stars">★★★★★</div>
+              <p class="review-text">
+                They took the time to explain everything to me. No stress, no pressure — just helpful people doing a great job.
+              </p>
+              <p class="review-name">Belal Bahri</p>
+            </div>
+            <label for="rev1" class="arrow arrow-right">
+              <img src="arrow right.svg" alt="Next" class="arrow-icon">
+            </label>
+          </div>
+        </div>
+      
+      </div>
+      
+      <div class="section-divider"></div>
+      
+
+
+
+
+      <section class="contact" id="contact">
+        <div class="contact-container">
+          
+          <!-- Left Side: Title + Contact Info -->
+          <div class="contact-info">
+            <h2 class="contact-title">Get in Touch</h2>
+      
+            <div class="contact-row">
+              <img src="icon-location.svg.svg" alt="Location Icon" class="contact-icon">
+              <span>Säntisstraße 81, 12277 Berlin</span>
+            </div>
+      
+            <div class="contact-row">
+              <img src="icon-phone.svg.svg" alt="Phone Icon" class="contact-icon">
+              <span>0176 34383637</span>
+            </div>
+      
+            <div class="contact-row">
+              <img src="icom-mail.svg.svg" alt="Mail Icon" class="contact-icon">
+              <span>info@galaxyautoservice.de</span>
+            </div>
+          </div>
+      
+          <!-- Right Side: Clickable Map Image -->
+          <div class="contact-map">
+            <a href="https://maps.app.goo.gl/R3wTZa8mNfEkTNN97?g_st=com.google.maps.preview.copy" target="_blank">
+              <img src="map.svg" alt="Map to Galaxy Autoservice" class="map-image">
+            </a>
+          </div>
+      
+        </div>
+      </section>
+
+
+
+
+
+
+      <footer class="site-footer">
+        <div class="footer-group">
+          <img src="logo.footer.svg" alt="Galaxy Autoservice Logo" class="footer-logo">
+          <div class="footer-divider"></div>
+          <p class="footer-text">© 2025 Galaxy Autoservice. All rights reserved.</p>
+        </div>
+      </footer>
+      
+      
+</body>
+</html>
